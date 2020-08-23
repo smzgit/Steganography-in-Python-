@@ -17,7 +17,7 @@ Following are the steps : -
 3. Calculate the size of the file and trasform it to bits of 24 length(RGB - 8 bits for each ).
 4. Now, Read 1 character from file, convert it to bits.
 5. Slice the bits into 3,3 & 2 size and modify the LSBs(least significant bits) of RGB of each pixel.
-6. Repeat till all characters are finished.
+6. Repeat till all characters of filename and the file itself are finished.
 7. Save the new pixels in .png format to avoid lossy compression.
 8. Close the image.
 
